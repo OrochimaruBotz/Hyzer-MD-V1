@@ -63,7 +63,7 @@ ${ucapan()} %name
  body: '│☂︎ %cmd %isPremium %islimit',
  footer: '▣──···\n',
   after: `
-*%npmname@^%version*
+*humanz@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -272,16 +272,15 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰───⬣
 ┌───⬣
-│⬡ My Github : https://github.com/Hyzerr
-│⬡ My Instagram : hyzer_stfu
+│⬡ My Github : https://github.com/OrochimaruBotz
 │⬡ My Group : 
-│https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV
+│ https://chat.whatsapp.com/L1gRLFQdWtY1X9LoaBrFT9
 │⬡ *スパムしないでください*
 ╰────────────────⬣
 `,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "Created By Hyzer Official\n>‿‿<",
+            footerText: "Created By Humanz\n>‿‿<",
             mtype: 'listMessage',
             sections: [
               {
